@@ -1,0 +1,87 @@
+
+body{
+width: 100%;
+height: auto;
+overflow-x: hidden;
+}
+
+.typing-text {
+  /* font-size: 34px; */
+  font-weight: 600;
+  min-width: 280px;
+  /* color:#50A3FF; */
+ 
+}
+
+.typing-text span {
+position: relative;
+cursor: pointer;
+color:#50A3FF;
+/* background-color: aliceblue; */
+
+}
+
+.typing-text span::before{
+  content: "Bass player";
+  color: #50A3FF;
+  animation: words 20s infinite;
+  
+}
+
+.typing-text span::after{
+  content: "";
+  /* background-color: black; */
+  color:#50A3FF;
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  border-left: 3px solid black;
+  right: -8;
+  animation: cursor 0.7s infinite;
+}
+
+@keyframes cursor{
+  to{
+    border-left: 2px solid #50A3FF ;
+  }
+}
+
+@keyframes words {
+  0%,20%{
+    content:"Certified Music Graduate";
+  }
+
+  21%,40%{
+    content:"Professional Bass Guitarist" ;
+  }
+
+  41%,60%{
+    content:"Bass Guitar Instructor";
+  }
+
+  61%,80%{
+    content:"Music Producer";
+  }
+
+  81%,100%{
+    content: "Music Mentor and Trainer";
+  }
+
+}
+
+@keyframes animate{
+  0% {scale: 1;}
+  50% {scale: 1.05;}
+  100%{scale: 1;}
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-thumb{
+  background-color: #50A3FF;
+  /* border-radius: 12px; */
+  transition: all 0.3s ease;
+}

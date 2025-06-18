@@ -4,45 +4,393 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="Images/Blue-logo.png">
+  <link rel="stylesheet" href="style.css">
   <title class="text-blue-400">JoeBass</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 
 </head>
-<body class="bg-black text-slate-300 font-serif ">
-  <header class="grid grid-cols-2 md:grid-cols-4 px-5 py-2 mb-5 border-b-1 border-zinc-900 ">
-    <div class="justify-start">
-       <img class="h-15 cursor-pointer" src="Images/Blue-logo.png" alt="Logo">
+<body class=" bg-zinc-950 text-slate-300 font-serif ">
+
+  <header class="grid grid-cols-2 md:grid-cols-4 px-5 py-2  border-b-1 border-zinc-900 ">
+    <div class=".justify-start md:col-span-2">
+       <img class="ml-10 h-15 md:h-20 cursor-pointer" src="Images/Blue-logo.png" alt="Logo">
     </div>
    
    
      <nav class="hidden md:flex col-span-2 pl-3 justify-start items-center  ">
-      <span class="ml-3 py-2 cursor-pointer trasform hover:scale-120 transition ease-out duration-400 hover:border-b-2 border-blue-600" >Home</span>
-      <span class="ml-5 py-2 cursor-pointer trasform hover:scale-120 transition ease-out duration-400 hover:border-b-2 border-blue-600">Skills</span>
-      <span class="ml-5 py-2 cursor-pointer trasform hover:scale-120 transition ease-out duration-400 hover:border-b-2 border-blue-600">Experiences</span>
-      <span class="ml-5 py-2 cursor-pointer trasform hover:scale-120 transition ease-out duration-400 hover:border-b-2 border-blue-600">Education</span>
-      <span class="ml-5 py-2 cursor-pointer trasform hover:scale-120 transition ease-out duration-400 hover:border-b-2 border-blue-600">Contact</span>
-    </nav>
+      <a class="ml-3 py-2 cursor-pointer trasform hover:scale-120 transition ease-out duration-400 hover:border-b-2 border-blue-400 hover:text-blue-400" href="#">Home</a>
+      <a class="ml-3 py-2 cursor-pointer trasform hover:scale-120 transition ease-out duration-400 hover:border-b-2 border-blue-400 hover:text-blue-400" href="#about">About</a>
+      <a class="ml-3 py-2 cursor-pointer trasform hover:scale-120 transition ease-out duration-400 hover:border-b-2 border-blue-400 hover:text-blue-400" href="#skills">Skills</a>
+      <a class="ml-3 py-2 cursor-pointer trasform hover:scale-120 transition ease-out duration-400 hover:border-b-2 border-blue-400 hover:text-blue-400" href="#experiences">Experiences</a>
+      <a class="ml-3 py-2 cursor-pointer trasform hover:scale-120 transition ease-out duration-400 hover:border-b-2 border-blue-400 hover:text-blue-400" href="contact#">Contact</a>
+
+         </nav>
 
      <div class="flex justify-center items-center ">
-      <svg class="h-10 cursor-pointer  text-blue-600 md:hidden trasform hover:scale-120 transition ease-out duration-400" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <svg class="h-10 cursor-pointer  text-blue-400 md:hidden trasform hover:scale-120 transition ease-out duration-400" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
       </svg>
     </div>
 
   </header>
 
-  <section class="flex mx-5">
-      <div class="mask-x-from-50% mask-y-from-90%  ">
-        <img class="h-full" src="Images/Screenshot 2025-06-11 at 23.13.41.jpeg" alt="myPhoto">
+  <section class="flex flex-col md:flex-row mx-5 items-center justify-center">
+      <div class="hidden md:flex mask-x-from-50% mask-y-from-90% mt-5 ">
+        <img class="object-cover" src="Images/Screenshot 2025-06-11 at 23.13.41.jpeg" alt="myPhoto">
+      </div>
+
+      <div class="flex w-100 md:hidden mask-x-from-50% mask-y-from-90% mt-5  ">
+        <img class="object-cover h-100 w-full " src="Images/Screenshot 2025-06-11 at 23.13.41.jpeg" alt="myPhoto">
       </div>
 
       <div>
-        <h1>Hi, it's <span>Joel</span></h1>
-        <h3>I'm a <span></span></h3>
-        <p>As a musician, I bring passion, creativity and mastery of my craft to every performance. With years of experience in both local and international events, I’m dedicated to making music that connects with people. Whether performing, producing music or teaching others my goal is to inspire and elevate through the power of music.</p>
+        <div class="md:mt-15 md:pr-20 mt-5 ml-7">
+        <h1 class="font-bold text-[30px] md:text-[45px]">Welcome to <span class="text-blue-400">JoeBass</span>,</h1>
+        <h3 class="typing-text text-[27px] md:text-[32px]">A <span> </span></h3>
+        <p>As a musician, He brings passion, creativity and mastery of his craft to every performance. With years of experience in both local and international events, He is dedicated to making music that connects with people. Whether performing, producing music or teaching others, His goal is to inspire and elevate through the power of music.</p>
       </div>
+
+      <div class="mt-10 ml-10 flex items-center"> <!--Social-Media-->
+
+        <div class=" "> <!--Instagram-->
+       
+      <a href="http://www.instagram.com/joebass__/" target="_blank"> <svg class="border-2 border-blue-400 rounded-full p-1 trasform hover:scale-120 transition ease-out duration-400 "  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0,0,256,256">
+      <g fill="#50a3ff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M8,3c-2.757,0 -5,2.243 -5,5v8c0,2.757 2.243,5 5,5h8c2.757,0 5,-2.243 5,-5v-8c0,-2.757 -2.243,-5 -5,-5zM8,5h8c1.654,0 3,1.346 3,3v8c0,1.654 -1.346,3 -3,3h-8c-1.654,0 -3,-1.346 -3,-3v-8c0,-1.654 1.346,-3 3,-3zM17,6c-0.55228,0 -1,0.44772 -1,1c0,0.55228 0.44772,1 1,1c0.55228,0 1,-0.44772 1,-1c0,-0.55228 -0.44772,-1 -1,-1zM12,7c-2.757,0 -5,2.243 -5,5c0,2.757 2.243,5 5,5c2.757,0 5,-2.243 5,-5c0,-2.757 -2.243,-5 -5,-5zM12,9c1.654,0 3,1.346 3,3c0,1.654 -1.346,3 -3,3c-1.654,0 -3,-1.346 -3,-3c0,-1.654 1.346,-3 3,-3z"></path></g></g>
+      </svg></a>
+        </div>
+
+        <div class=" ml-3"><!--Facebook-->
+          <a href="https://www.facebook.com/uwikunda.joel" target="_blank"><svg class="border-2 border-blue-400 rounded-full p-1 trasform hover:scale-120 transition ease-out duration-400 " xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0,0,256,256">
+      <g fill="#50a3ff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M30.14063,2c-3.27025,0 -6.09523,0.99694 -8.07812,2.9668c-1.9829,1.96986 -3.0625,4.85703 -3.0625,8.40039v4.63281h-6c-0.55226,0.00006 -0.99994,0.44774 -1,1v8c0.00006,0.55226 0.44774,0.99994 1,1h6v19c0.00006,0.55226 0.44774,0.99994 1,1h8c0.55226,-0.00006 0.99994,-0.44774 1,-1v-19h7c0.50395,-0.00003 0.92915,-0.37501 0.99219,-0.875l1,-8c0.03584,-0.28475 -0.05237,-0.57117 -0.24221,-0.78642c-0.18983,-0.21524 -0.46299,-0.33856 -0.74998,-0.33858h-8v-4c0,-1.11667 0.88333,-2 2,-2h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-7.6543c-0.00063,-0.50124 -0.37221,-0.9246 -0.86914,-0.99023c-0.88367,-0.11725 -4.07368,-0.35547 -6.99023,-0.35547zM30.14063,4c2.43785,0 4.79448,0.19505 5.85938,0.29492v5.70508h-5c-2.19733,0 -4,1.80267 -4,4v5c0.00006,0.55226 0.44774,0.99994 1,1h7.86719l-0.75,6h-7.11719c-0.55226,0.00006 -0.99994,0.44774 -1,1v19h-6v-19c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1h-6v-6h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-5.63281c0,-3.14464 0.9203,-5.44028 2.47266,-6.98242c1.55235,-1.54214 3.79722,-2.38477 6.66797,-2.38477z"></path></g></g>
+      </svg></a>
+        </div>
+
+      <div class=" ml-3">
+        <a href="https://x.com/JoeBass_" target="_blank"><svg class="border-2 border-blue-400 rounded-full p-1 trasform hover:scale-120 transition ease-out duration-400" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0,0,256,256">
+        <g fill="#50a3ff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M5.91992,6l14.66211,21.375l-14.35156,16.625h3.17969l12.57617,-14.57812l10,14.57813h12.01367l-15.31836,-22.33008l13.51758,-15.66992h-3.16992l-11.75391,13.61719l-9.3418,-13.61719zM9.7168,8h7.16406l23.32227,34h-7.16406z"></path></g></g>
+        </svg></a>
+      </div>
+
+      <div class="ml-3">
+        <a href="https://www.linkedin.com/in/uwikunda-joel-b02079187/" target="_blank"><svg class="border-2 border-blue-400 rounded-full p-1 trasform hover:scale-120 transition ease-out duration-400" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0,0,256,256">
+        <g fill="#50a3ff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M5,3c-1.105,0 -2,0.895 -2,2v14c0,1.105 0.895,2 2,2h14c1.105,0 2,-0.895 2,-2v-14c0,-1.105 -0.895,-2 -2,-2zM5,5h14v14h-14zM7.7793,6.31641c-0.857,0 -1.37109,0.51517 -1.37109,1.20117c0,0.686 0.51416,1.19922 1.28516,1.19922c0.857,0 1.37109,-0.51322 1.37109,-1.19922c0,-0.686 -0.51416,-1.20117 -1.28516,-1.20117zM6.47656,10v7h2.52344v-7zM11.08203,10v7h2.52344v-3.82617c0,-1.139 0.81264,-1.30273 1.05664,-1.30273c0.244,0 0.89649,0.24473 0.89649,1.30273v3.82617h2.44141v-3.82617c0,-2.197 -0.97627,-3.17383 -2.19727,-3.17383c-1.221,0 -1.87226,0.40656 -2.19726,0.97656v-0.97656z"></path></g></g>
+      </svg></a>
+      </div>
+
+      </div>
+
+      
+      <a href="mailto:uwijoel@gmail.com"><button class="hover:bg-blue-400 shadow-md shadow-blue-400 hover:shadow-none border-2 tracking-wider trasform hover:scale-120 transition ease-out duration-400 transition ease-out duration-700 border-blue-400  hover:text-white mt-15 ml-20 px-5 py-1 cursor-pointer rounded-lg">Send message</button></a>
+
+      </div>     
+
     </section>
+
+    <section id="about"><!--About-->
+      <div class="content  flex flex-col mt-20 items-center justify-center ">
+        <div><span class="border-b-2 p-2 border-blue-400 cursor-pointer text-[30px]">About</span></div>
+        
+        <div class="flex flex-col md:flex-row mt-5 px-10 py-5">
+
+          <div class="flex ml-10 h-100 w-100 md:w-full md:h-full justify-center  border-r-2 border-blue-400 mask-l-from-80% mask-y-from-90%  rounded-full">
+            <div class="flex ">
+            <img class="object-cover  rounded-full" src="Images/About-image.jpg" alt="myPhoto">
+            </div>
+          </div>
+
+          <div class="ml-7 p-2 pr-20 pl-5  mr-10 .bg-stone-50">
+          <span class="text-[30px] text-blue-400">Uwikunda Joel</span> is a Rwandan skilled bassist, Music Producer and dedicated music educator with a passion for nurturing talent. A graduate of the Rwanda School of Creative Arts and Music, he has performed at various local and international events, showcasing his deep musicality and stage experience. Since 2019, Joel has committed himself to teaching, first as a volunteer and now as a Senior Guitar Instructor. He continues to inspire and guide the next generation of musicians with excellence, creativity, and heart.
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section id="skills"> <!--Skills-->
+      <div class="content  flex flex-col mt-20 items-center justify-center">
+        <div><span class=" border-b-2 p-2 border-blue-400 cursor-pointer text-[30px]">Skills</span></div>
+
+          <div class="flex .border-2 px-3 py-5 my-10">
+            <div class="flex p-5 mr-3 border-l-2 border-blue-400 trasform hover:scale-120 transition ease-out duration-400">
+            <h4>Perfomance</h4>
+            </div>
+
+            <div class="p-5 mr-3 border-l-2 border-blue-400 border-blue-400 trasform hover:scale-120 transition ease-out duration-400">
+            <h4>Adaptability</h4>
+            </div>
+
+            <div class="p-5 mr-3 border-l-2 border-blue-400 trasform hover:scale-120 transition ease-out duration-400">
+            <h4>Communication</h4>
+            </div>
+
+            <div class="p-5 mr-3 border-l-2 border-blue-400 trasform hover:scale-120 transition ease-out duration-400">
+            <h4>Collaboration</h4>
+            </div>
+
+            <div class="p-5 mr-3 border-l-2 border-blue-400 trasform hover:scale-120 transition ease-out duration-400">
+            <h4>Discipline</h4>
+            </div>
+
+            <div class="p-5 mr-3 border-l-2 border-blue-400 trasform hover:scale-120 transition ease-out duration-400">
+            <h4>Patience</h4>
+            </div>
+
+            <div class="p-5 mr-3 border-l-2 border-blue-400 trasform hover:scale-120 transition ease-out duration-400">
+            <h4>Listening</h4>
+            </div>
+
+
+          </div>
+  
+      </div>
+
+    </section>
+
+    <section id="experiences" class="flex flex-col my-15 items-center justify-center" > <!--Experience-->
+      <div class=" border-b-2 p-2 border-blue-400 cursor-pointer text-[30px]">Experiences</div>
+
+      <div class="flex snap snap-x snap-mandatory mt-5">
+
+        <div class="snap-center snap-always  overflow-hidden rounded-lg w-60 shadow-md shadow-blue-400"><!--RSAM-->
+          
+          <div class="border-b-5 relative">
+            <div class="absolute left-0 bottom-2 w-3 h-38 bg-blue-400"></div>
+            <img class="h-50 object-cover w-full " src="Images/01-School logo.png" alt="RSAM">
+          </div>
+
+          <div class="relative text-black px-3 pb-3 bg-green-300 h-full ">
+
+            <div class="absolute right-0 top-2 w-3 h-40  bg-blue-400"></div>
+
+            <div class="flex">
+              <svg class="h-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"></path>
+              </svg>
+              <p class="italic ml-2">2022-Present</p>
+            </div>
+
+            <div class="flex mt-2">
+              <svg class="h-15" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"></path>
+              </svg>
+              <p class=" ml-2 font-bold uppercase">Rwanda School of Creative Arts and Music</p>
+            </div>
+
+            <div class="flex mt-2">
+              <svg class="h-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+</svg>
+            <p class="ml-2">Bass Guitar Senior Instructor</p>
+            </div>
+
+            <div class="flex mt-2">
+              <svg class="h-5" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"></path>
+</svg>
+            <p class="ml-2 italic text-sm">Muhanga, RWANDA</p>
+            </div>
+            
+
+          </div>
+
+
+        </div>
+
+         <div class="snap-center snap-always ml-5 overflow-hidden rounded-lg w-60 shadow-md shadow-blue-400"><!--Iminsi-->
+          
+          <div class="border-b-5 relative">
+            <div class="absolute left-0 bottom-2 w-3 h-38 bg-blue-400"></div>
+            <img class="h-50 object-cover w-full " src="Images/Iminsi myinshii.jpg" alt="RSAM">
+          </div>
+
+          <div class="relative text-black px-3 h-full pb-3 bg-orange-300 ">
+
+            <div class="absolute right-0 top-2 w-3 h-40  bg-blue-400"></div>
+
+            <div class="flex">
+              <svg class="h-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"></path>
+              </svg>
+              <p class="italic ml-2">December-15-2023</p>
+            </div>
+
+            <div class="flex mt-5">
+              <svg class="h-7" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 0 1 0 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 0 1 0-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375Z"></path>
+</svg>
+              <p class=" ml-2 font-bold uppercase">Iminsi myinshi album launch</p>
+            </div>
+
+            <div class="flex mt-6">
+              <svg class="h-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+</svg>
+            <p class="ml-2">Stage Manager</p>
+            </div>
+
+            <div class="flex mt-8">
+              <svg class="h-5" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"></path>
+</svg>
+            <p class="ml-2 italic text-sm">Kigali, RWANDA</p>
+            </div>
+            
+
+          </div>
+
+
+        </div>
+
+        <div class="snap-center snap-always ml-5 overflow-hidden rounded-lg w-60 shadow-md shadow-blue-400"><!--Kigali acoustic-->
+          
+          <div class="border-b-5 relative">
+            <div class="absolute left-0 bottom-2 w-3 h-38 bg-blue-400"></div>
+            <img class="h-50 object-cover w-full " src="Images/Kigali Acoustic Night | FGO Barbara.jpg" alt="RSAM">
+          </div>
+
+          <div class="relative text-black px-3 h-full pb-3 bg-stone-300 ">
+
+            <div class="absolute right-0 top-2 w-3 h-40  bg-blue-400"></div>
+
+            <div class="flex">
+              <svg class="h-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"></path>
+              </svg>
+              <p class="italic ml-2">March-11-2023</p>
+            </div>
+
+            <div class="flex mt-5">
+              <svg class="h-7" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 0 1 0 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 0 1 0-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375Z"></path>
+</svg>
+              <p class=" ml-2 font-bold uppercase">Kigali Acoustic Night</p>
+            </div>
+
+            <div class="flex mt-6">
+              <svg class="h-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+</svg>
+            <p class="ml-2">Bass Guitarist</p>
+            </div>
+
+            <div class="flex mt-8">
+              <svg class="h-5" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"></path>
+</svg>
+            <p class="ml-2 italic text-sm">Paris, FRANCE</p>
+            </div>
+            
+
+          </div>
+
+
+        </div>
+
+       <div class="snap-center snap-always ml-5  overflow-hidden rounded-lg w-60 shadow-md shadow-blue-400"><!--RSAM-->
+          
+          <div class="border-b-5 relative">
+            <div class="absolute left-0 bottom-2 w-3 h-38 bg-blue-400"></div>
+            <img class="h-50 object-cover w-full " src="Images/01-School logo.png" alt="RSAM">
+          </div>
+
+          <div class="relative text-black px-3 pb-3 bg-rose-300 h-full ">
+
+            <div class="absolute right-0 top-2 w-3 h-40  bg-blue-400"></div>
+
+            <div class="flex">
+              <svg class="h-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"></path>
+              </svg>
+              <p class="italic ml-2">2019-2022</p>
+            </div>
+
+            <div class="flex mt-2">
+              <svg class="h-15" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"></path>
+              </svg>
+              <p class=" ml-2 font-bold uppercase">Rwanda School of Creative Arts and Music</p>
+            </div>
+
+            <div class="flex mt-2">
+              <svg class="h-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+</svg>
+            <p class="ml-2">Volunteer Guitar Instructor</p>
+            </div>
+
+            <div class="flex mt-2">
+              <svg class="h-5" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"></path>
+</svg>
+            <p class="ml-2 italic text-sm">Muhanga, RWANDA</p>
+            </div>
+            
+
+          </div>
+
+
+        </div>
+
+        <div class="snap-center snap-always ml-5 overflow-hidden rounded-lg w-60 shadow-md shadow-blue-400"><!--Kigali acoustic-->
+          
+          <div class="border-b-5 relative">
+            <div class="absolute left-0 bottom-2 w-3 h-38 bg-blue-400"></div>
+            <img class="h-50 object-cover w-full " src="Images/Kwita izina concert2019.jpg" alt="RSAM">
+          </div>
+
+          <div class="relative text-black px-3 h-full pb-3 bg-teal-200 ">
+
+            <div class="absolute right-0 top-2 w-3 h-40  bg-blue-400"></div>
+
+            <div class="flex">
+              <svg class="h-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"></path>
+              </svg>
+              <p class="italic ml-2">September-7-2019</p>
+            </div>
+
+            <div class="flex mt-5">
+              <svg class="h-7" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 0 1 0 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 0 1 0-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375Z"></path>
+</svg>
+              <p class=" ml-2 font-bold uppercase">Kwita izina concert</p>
+            </div>
+
+            <div class="flex mt-6">
+              <svg class="h-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+</svg>
+            <p class="ml-2">Bass Guitarist</p>
+            </div>
+
+            <div class="flex mt-8">
+              <svg class="h-5" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"></path>
+</svg>
+            <p class="ml-2 italic text-sm">kigali, RWANDA</p>
+            </div>
+            
+
+          </div>
+
+
+        </div>
+      
+
+      </div>
+
+
+
+    </section>
+
+     
 
 
   
